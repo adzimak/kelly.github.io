@@ -21,6 +21,11 @@ footer {
 	max-width: 700px;
     margin: 0px auto;
 }
+header img{
+  box-shadow: 0 0 30px #444;
+  float: right;
+  border-radius: 0 10px 0 0;
+}
 h1 {
     font-size:16px;
     line-height:1.5;
@@ -108,30 +113,9 @@ footer a{
 
 footer a:hover {
     text-decoration: underline;
-}
-
-/* media types/*
-
-
-@media small (min-width: 20.5em) {
-	
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 100%; }
-}
-
-@media midium (min-width: 35em) {
-	nav a {
+  display: flex; 
+  flex: 1 1 100%; 
 font-size: 1.5rem;
-font-family: 'Trispace' sans-serif;
   color:#153131;
 }
 
-@media large (min-width: 55em) {
-	
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 100%; }
-}
-
-
-
-   
