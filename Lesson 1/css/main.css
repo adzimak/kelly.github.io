@@ -30,7 +30,12 @@ margin: 0 auto;
 padding: 1.5rem;
 max-width: 25rem;
 }
-   header {
+header img{
+  box-shadow: 0 0 30px #444;
+  float: right;
+  border-radius: 0 10px 0 0;
+}
+ header {
   margin-top: 10px;
    }
 
