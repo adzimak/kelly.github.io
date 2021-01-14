@@ -3,7 +3,7 @@ html,body {
   line-height:1.5;
   font-family: "Trispace",sans-serif;
   color: blue;
-  height: 140%px
+  height: 140em;
 }
     h1 {
       font-size: 1.5rem;
@@ -19,7 +19,7 @@ html,body {
     h2 {
       font-size: 1.5rem;
       border-bottom: 1px solid #999;
-      margin-bottom: 0-0.5em;
+      margin-bottom: 0.5em;
     }
 
 header,
@@ -27,21 +27,21 @@ nav,
 main,
 footer {
 margin: 0 auto;
-padding: 0.5rem;
-max-width: 45 rem;
+padding: 1.5rem;
+max-width: 25rem;
 }
    header {
   margin-top: 10px;
    }
 
    header nav{
-      background-color: var(---blue);
+      background-color: #94BFBE;
       color:#fff;
    }
 
    header, footer {
       text-align: center;
-      background-color: var(---brown);
+      background-color: #736CED;
       color: #fff;
       border-radius: 10px;
   }
