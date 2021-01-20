@@ -46,6 +46,7 @@ nav {
 	background-color: #F03A47;
     text-align: center;
     color: #004643;
+    max-width: 760px;
 }
 nav ul {
 	list-style-type: none;
