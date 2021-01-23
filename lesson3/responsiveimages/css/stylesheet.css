@@ -151,10 +151,10 @@ h1, h2, p {
 	right: 650px;
 	background: radial-gradient brown;
 	border: 1px solid #000;
-	padding: 1.5rem;
+	padding: 2.5rem;
 	box-shadow: 0 0 30px 22;
-	opacity: .6;
-}
+  opacity: .5;
+  }
 }
 
 @media only screen and (min-width: 480px) {
