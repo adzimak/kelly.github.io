@@ -8,9 +8,9 @@
    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <script src="js/index.js"></script>
+    
 </head>
-<body>
+<body onload="todayDate()">
     <header>
         <h1 class=Logo>
         <img src="images/logoweather.png" alt="My Logo">
@@ -35,13 +35,8 @@
     </main>
     
         <footer>
-            <aside>
-                Contact information placeholder
-            </aside>
-            <p class="footer-bar">&copy;2021 All Rights Reserved | Site plan |Kelly Adzima| <span id="currentdate"></span></p>
-        </footer>
-        <script src="scripts/hamburger.js"></script>
-        <script src="scripts/currentdate.js"></script>
+            <p> &copy;|Kelly Adzima| Accra-Ghana| lastupdate <span id="output"></span> </p>
+            <script src="js/index.js"></script>     
     </footer>
 </body>
 </html>
