@@ -26,6 +26,10 @@ header img{
   float: right;
   border-radius: 0 10px 0 0;
 }
+data-src{
+    min-width: 50px;
+    min-height: 50px;
+}
 h1 {
     font-size:16px;
     line-height:1.5;
