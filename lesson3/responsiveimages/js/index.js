@@ -1,11 +1,10 @@
-function todayDate() {
-    var now = new Date();
-    var month = now.getMonth();
-    var dayOfMonth = now.getDate();
-    var dayOfWeek = now.getDay();
-    var hour = now.getHours();
-    var minutes = now.getMinutes();
+var dateObj = new Date();
+var month = dateObj.getUTCMonth(); //months from 1-12
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+var day = dateObj.getUTCDate();
+var year = dateObj.getUTCFullYear();
 
-    output = dayOfWeek + dayOfMonth + "@" + hour + ":" + minutes;
-    document.getElementById("output").innerHTML = output;
-}
+document.getElementById("currentdate").innerHTML = days[dateObj.getDay()] + ',' + day + ' ' + month[dateObj.getMonth()] + ' ' + year;
