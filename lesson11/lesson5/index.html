@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">    <title>Breazee</title>
+    <meta name="description" content="This is the assignment about my weather site called Breazee for WDD30">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" href="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <img src="images/logoweather.png" alt="My Logo" width="250" height="100">
+</head>
+
+<body>
+    <header>
+         <h1>Home</h1>    
+  </header>
+  <main>
+    <nav>
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="franklin.html">Franklin</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="sodaspring.html">Soda Spring</a></li>
+            <li><a href="gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+        <h2>Home</h2>
+
+        <figure>
+            <img src="images/pexels-photo-853411.jpeg#" alt="figure" width="500" height="300">
+        </figure>
+
+        <section>
+            <h3>Weather Summary</h3>
+            <div class="highlow">
+                <p>High:</p>
+                <p>Low:</p>
+            </div> 
+            <div class="current">
+                Sunny
+                <picture>
+                    <img src="images/pexels-photo-858599.jpeg#" alt="" width="250" height="100">
+                </picture>
+            </div>
+            <div class="conditions">
+                Precipitation:
+                <p id="precipitation"></p>
+                Wind Speed:
+                <p id="speed"></p>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+     
+
+
+
+
+
+<footer>
+    <p> &copy;|Kelly Adzima| Accra-Ghana| lastupdate <span id="currentdate"></span></p>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/jason.js"></script>
+  <script src="js/index.js"></script>
+</footer>
+
+</body>
+</html>
