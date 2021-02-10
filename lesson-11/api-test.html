@@ -11,54 +11,34 @@
     <img src="images/logoweather.png" alt="My Logo" width="250" height="100">
 </head>
 <body>
-    <h1>Breazee Weather</h1>
-    <session>
-    <h2>The City of Preston, Idaho></h2>
-    <main>
-        <h3>Best Pets</h3>
-        <div class="herodiv">
-         <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="pets-image">
-         <section class="stats">
-          <h2>statistics</h2>
-          <div class="highlow">
-            <p>High:89</p>
-            <p>Low:72</p>
-        </div>
-        <div class="current">
-           <p>Sunny</p> 
-          <p>Gender: <span id="gender">Female</span></p>
-          <p>Age: <span id="age">6 months</span></p>
-          <p>Shots?: <span id="shots">Yes</span></p>
-         </section>
-        </div>
-       </main>
+    <h1><OpenWeatherMap</h1>
+    
     <nav>
         <ul class="navigation">
             <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="api-test.html">Preston</a></li>
+            <li><a href="color-scheme.html">Color Scheme</a></li>
+            <li><a href="gallery-7.html">Gallery-7</a></li>
+            <li><a href="lazyload.html">lazyload</a></li>
             <li><a href="preston.html">Preston</a></li>
+            <li><a href="gallery-7.html">Gallery-7</a></li>
+            <li><a href="preston-10.html">Preston-10</a></li>
+            <li><a href="responsiveimages.html">responsiveimages</a></li>
+            <li><a href="stormcenter.html">stormcenter</a></li>
+            <li><a href="target-audience.html">target-audience</a></li>
+            <li><a href="typography.html">Typography</a></li>
+
         </ul>
     </nav>
     
-    <section>
-        <h3>Weather Summary</h3>
-        <div class="highlow">
-            <p>High:89</p>
-            <p>Low:72</p>
-        </div>
-        <div class="current">
-           <p>Sunny</p> 
-           Precipitation:
-           <p id="precipitation"></p>
-           Wind Speed:32
-           <p id="speed"></p
-            </div>
-           </session>
+    <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+<hr>
+<p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
 
-
-</main>
 
 <footer>
   <p> &copy;|Kelly Adzima| Accra-Ghana| lastdate <span id="currentdate"></span></p>
+  <script src="js/weatherapi.js"></script>
   <script src="js/hamburger.js"></script>
   <script src="js/index.js"></script>
 </footer>
