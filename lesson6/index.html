@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">    <title>Breazee</title>
+    <meta name="description" content="This is the assignment about my weather site called Breazee for WDD30">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" href="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <img src="images/logoweather.png" alt="My Logo" width="250" height="100">
+</head>
+<body>
+    <header>
+        <h1>Breazee</h1>
+        <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven">Fish Haven</a></li>
+            <li><a href="stormcenter.html">stormcenter</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome you to Breazee weather site</h2>
+        <p>The sole purpose of our website is to accurately provide weather information to people living around with emphazy on the key seasonal areas for touristic visitation.</p>
+        <div class="specialbox">
+            <picture>
+                <source srcset="images/pexelssombre.jpg" media="(max-width:320px)"/>
+                <source srcset="images/pexelsnuage.jpg" media="(max-width:480px)"/>
+                <source srcset="images/pexelsorage.jpg" media="(max-width:720px)"/>
+                <img src="images/pexelscielclair.jpg" alt="Dark vision" width="1000px" height="400px">
+            </picture>
+            </div>
+            <div class="towncard"></div>
+           
+    </main>
+    
+        <footer>
+            <div id="contactbox">
+                <section>
+                    <h3>Contact Information</h3>
+                    <strong>
+                        You may kindly reach us on:
+                             <br>
+                        32003, X. Mongeen street 
+                             <br>
+                        Third floor,
+                        Cresent avenue
+                             <br>
+                        Airport residential
+                        <p>
+                          Tel: +233 268 33 90 43
+                        </p>
+                             <p>
+                               Email: breazeelive@gmail.com or info@breazeelive.gmail.com
+                             </p>   
+</strong>
+</section>
+<img src="images/mapofpreston.png" alt="Map Image of Preston, Idaho" width="300" height="200">
+</div>
+
+            <p> &copy;|Kelly Adzima| Accra-Ghana| lastupdate <span id="currentdate"></span>|Attributions: <a href="https://openweathermap.org/">OpenWeather</a></p>
+            <script src="js/json.js"></script>
+            <script src="js/index.js"></script>     
+    </footer>
+</body>
+</html>

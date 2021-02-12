@@ -1,0 +1,68 @@
+@media only screen and (min-width: 35.5em) {
+    header img {
+        width: 85px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+   .navigation {
+        display: flex;
+    }
+    
+    button {
+        display: none;
+    }
+
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+      .weathersum {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0.6;
+	    border-radius: 10px;
+    }
+    
+    #contactbox {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+    footer img {
+        margin-right: 10px;
+        margin-bottom: 10px;;
+    }
+
+        .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+        div.towncard section {
+        padding: 3rem;
+        position: relative;
+    }
+    div.towncard section:nth-child(even){
+        text-align: left;
+    }
+    div.towncard section:nth-child(even) img {  
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        width: 260px;
+    }
+    div.towncard section:nth-child(odd){
+        text-align: right;
+    }
+    div.towncard section:nth-child(odd) img {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        width: 255px;
+    }
+}

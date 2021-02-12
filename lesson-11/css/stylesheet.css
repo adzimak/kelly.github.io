@@ -18,7 +18,7 @@ header,
 nav,
 main,
 footer {
-	max-width: 700px;
+	max-width: 1400px;
     margin: 0px auto;
 }
 header img{
@@ -47,7 +47,7 @@ h2 {
 }
 
 nav {
-	background-color: #F03A47;
+	background-color:#b2beb5;
     text-align: center;
     color: #004643;
     max-width: 760px;
@@ -74,8 +74,8 @@ nav a:hover {
 	color: #69474e;
 }
 main {
-    color: #EF476F;
-    max-width: 700px;
+    color: #000;
+    max-width: 1400px;
     font-size: 18px;
     font-family: 'Trispace', sans-serif;
     padding: 1rem;
@@ -95,7 +95,7 @@ main a:hover {
 }
 
 main ul {
-    color: #EF476F;
+    color: #EF476F;;
     font-family: 'Trispace', sans-serif;
 }
 
