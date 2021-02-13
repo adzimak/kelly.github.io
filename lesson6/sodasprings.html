@@ -7,32 +7,71 @@
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" href="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <img src="images/logoweather.png" alt="My Logo" width="250" height="100">
     
 </head>
 <body>
     <header>
-         <h1>Breazee</h1>
+         <h1>Soda Springs</h1>
 </header>
-<main>
-    <h2>The City of Preston, Idaho></h2>
-    <figure>
-        <img src="images/pexels-photo-853411.jpeg#" alt="figure"  width="250" height="260">
-    </figure>
+    <span>
+        <button class="ham" id="hamburger">☰</button>
+    </span>
     <nav>
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="preston.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven">Fish Haven</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">stormcenter</a></li>
-            <li><a href="gallery-7.html">Gallery-7</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    
-    <section>
+    <main>
+        <h2>Soda Springs</h2>
+    <div class="specialbox">
+        <picture>
+            <source srcset="images/feu.png" media="(max-width:320px)"/>
+            <source srcset="images/secheresse.png" media="(max-width:480px)"/>
+            <source srcset="images/desastre.png" media="(max-width:720px)"/>
+            <img src="images/secour.png" alt="Snow" width="1000px" height="400px">
+        </picture>
+
         <h3>Weather Summary</h3>
+        <section class="weathersum">
+            <h3>Weather Summary</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Currently:</td>
+                        <td><span id="description"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Temp:</td>
+                        <td><span id="temp"></span>°F</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill:</td>
+                        <td><span id="windChill"></span>°F</td>
+                    </tr>
+                    <tr>
+                        <td>Humidity:</td>
+                        <td><span id="humidity"></span>%</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed:</td>
+                        <td><span id="speed"></span>mph</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <h3>Five Day Forecast</h3>
+    <div class="forecastbox"></div>
+    <div class="town"></div>
         <div class="highlow">
             <p>High:89</p>
             <p>Low:72</p>
@@ -40,7 +79,7 @@
         <div class="current">
            <p>Sunny</p> 
             <picture>
-                <img src="images/pexels-photo-858599.jpeg#" alt="Sunny" width="250" height="260">
+                <img src="images/feu.png" alt="Sunny" width="900" height="400">
             </picture>
         </div>
         <div class="conditions">
@@ -76,20 +115,49 @@
     </section>
 
     <article class="googlefonts">
-        <h3> Preston Breaks Record</h3>
+        <h3> Soda springs</h3>
         <p class="town-article">
-            <img src="images/pexels-photo-588561.jpeg#" alt="town-article" width="120" height="135"> short article content placeholder
+            <img src="images/desastre.png" alt="town-article" width="130" height="100"> short article content placeholder<p>Upcoming Events <br></p>
+            <p>February29: Geyser Song Day</p>
+            <p>May 1-6: Days of May Celebration</p>
+            <p>October 15-16:Octoberfest</p>
         </p>
     </article>
 
 </main>
 
 <footer>
-    <footer>
+    <div id="contactbox">
+            <section>
+                <h3>Contact Information</h3>
+                <strong>
+                    You may kindly reach us on:
+                         <br>
+                    32003, X. Mongeen street 
+                         <br>
+                    Third floor,
+                    Cresent avenue
+                         <br>
+                    Airport residential
+                    <p>
+                      Tel: +233 268 33 90 43
+                    </p>
+                         <p>
+                           Email: breazeelive@gmail.com or info@breazeelive.gmail.com
+                         </p>   
+</strong>
+</section>
+<img src="images/mapofpreston.png" alt="Map Image of Preston, Idaho" width="300" height="200">
+</div>
         <p> &copy;|Kelly Adzima| Accra-Ghana| lastupdate <span id="currentdate"></span></p>
-        <script src="js/hamburger.js"></script>
+        
         <script src="js/index.js"></script>
-       </footer> 
+        <script src="js/weatherapi.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/forecast.js"></script>
+        <script src="js/town.js"></script>
+        
+       
 </footer>
 </body>
 </html>
